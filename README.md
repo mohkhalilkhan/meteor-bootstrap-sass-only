@@ -1,5 +1,6 @@
 meteor-bootstrap3-sass-Only
 ======================
+[![Build Status](https://travis-ci.org/dyaa/meteor-bootstrap3-sass-only.svg)](https://travis-ci.org/dyaa/meteor-bootstrap3-sass-only)
 
 Meteor package for Bootstrap 3 with Sass support
 
@@ -39,4 +40,12 @@ Be sure to add the appropriate tags (as [recommended by Bootstrap](http://getboo
 
 --------------------------------------------------------
 
-Inspired by [englue](https://github.com/englue)
+Inspired by [englue](https://github.com/englue) 
+
+#### License
+
+Copyright (c) 2015 [Dyaa Eldin Moustafa][1] Licensed under the [MIT license][2].
+
+
+  [1]: https://dyaa.me/
+  [2]: https://github.com/dyaa/meteor-bootstrap-sass-only/blob/master/LICENSE.md
