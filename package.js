@@ -1,18 +1,21 @@
 Package.describe({
 	name: 'dyaa:bootstrap-sass-only',
-	version: '3.3.5',
+	version: '3.3.5_1',
 	// Brief, one-line summary of the package.
-	summary: '',
+	summary: 'Bootstrap 3 with Sass support (Only Sass)',
 	// URL to the Git repository containing the source code for this package.
-	git: '',
+	git: 'https://github.com/dyaa/meteor-bootstrap3-sass-only',
 	// By default, Meteor will default to using README.md for documentation.
 	// To avoid submitting documentation, set this field to null.
 	documentation: 'README.md'
 });
+Package.onUse(function (api) {
+	api.versionsFrom('METEOR@1.2');
 
-Package.onUse(function(api) {
-	api.versionsFrom('1.2.0.2');
-	api.use(['meteor', 'fourseven:scss@3.3.3']);
+	api.use([
+		'meteor',
+		'fourseven:scss@3.3.3'
+	]);
 
 	api.addAssets([
 		'assets/fonts/bootstrap/glyphicons-halflings-regular.eot',
@@ -21,7 +24,6 @@ Package.onUse(function(api) {
 		'assets/fonts/bootstrap/glyphicons-halflings-regular.woff',
 		'assets/fonts/bootstrap/glyphicons-halflings-regular.woff2'
 	], 'client');
-
 
 	api.addFiles([
 		'_bootstrap.scss',
@@ -95,33 +97,18 @@ Package.onUse(function(api) {
 		'assets/stylesheets/bootstrap/mixins/_text-emphasis.scss',
 		'assets/stylesheets/bootstrap/mixins/_text-overflow.scss',
 		'assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss'
-		], 'client');
-	});
-
-
-
+	], 'client');
 });
 
 Package.onTest(function(api) {
-	api.use('ecmascript');
-	api.use('tinytest');
 	api.use('dyaa:bootstrap-sass-only');
+	api.use([
+		'fourseven:scss@3.3.3',
+		'tinytest',
+		'test-helpers'
+	]);
+
+	api.addFiles([
+		'tests.scss'
+	], 'client');
 });
-
-
-
-
-// Package.onTest(function(api) {
-// 	api.use('reywood:bootstrap3-sass');
-// 	api.use([
-// 		'fourseven:scss@3.3.3',
-// 		'jquery',
-// 		'tinytest',
-// 		'test-helpers'
-// 	]);
-
-// 	api.addFiles([
-// 		'tests.scss',
-// 		'tests.js'
-// 	], 'client');
-// });
