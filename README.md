@@ -38,3 +38,5 @@ Be sure to add the appropriate tags (as [recommended by Bootstrap](http://getboo
 ```
 
 --------------------------------------------------------
+
+Inspired by [englue](https://github.com/englue)
