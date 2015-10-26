@@ -1,0 +1,56 @@
+$icon-font-path: '/packages/dyaa_bootstrap-sass-only/assets/fonts/bootstrap/' !default;
+
+@function font-url($url) {
+	@return url('#{$url}');
+}
+
+// Core variables and mixins
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/variables";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/mixins";
+
+// Reset and dependencies
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/normalize";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/print";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/glyphicons";
+
+// Core CSS
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/scaffolding";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/type";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/code";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/grid";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/tables";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/forms";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/buttons";
+
+// Components
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/component-animations";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/dropdowns";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/button-groups";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/input-groups";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/navs";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/navbar";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/breadcrumbs";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/pagination";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/pager";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/labels";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/badges";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/jumbotron";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/thumbnails";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/alerts";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/progress-bars";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/media";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/list-group";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/panels";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/responsive-embed";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/wells";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/close";
+
+// Components w/ JavaScript
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/modals";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/tooltip";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/popovers";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/carousel";
+
+// Utility classes
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/utilities";
+@import "{dyaa:bootstrap-sass-only}/assets/stylesheets/bootstrap/responsive-utilities";
