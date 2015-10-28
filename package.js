@@ -13,8 +13,7 @@ Package.onUse(function (api) {
 	api.versionsFrom('METEOR@1.2');
 
 	api.use([
-		'meteor',
-		'fourseven:scss@3.3.3'
+		'meteor'
 	]);
 
 	api.addAssets([
