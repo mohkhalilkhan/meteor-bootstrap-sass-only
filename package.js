@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'dyaa:bootstrap-sass-only',
-	version: '3.3.5_2',
+	version: '3.3.5_3',
 	// Brief, one-line summary of the package.
 	summary: 'Bootstrap with Sass Only',
 	// URL to the Git repository containing the source code for this package.
@@ -13,7 +13,8 @@ Package.onUse(function (api) {
 	api.versionsFrom('METEOR@1.2');
 
 	api.use([
-		'meteor'
+		'meteor',
+		'fourseven:scss@3.2.0',
 	]);
 
 	api.addAssets([
