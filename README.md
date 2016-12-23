@@ -44,7 +44,7 @@ Inspired by [englue](https://github.com/englue)
 
 #### License
 
-Copyright (c) 2015 [Dyaa Eldin Moustafa][1] Licensed under the [MIT license][2].
+Copyright (c) 2017 [Dyaa Eldin Moustafa][1] Licensed under the [MIT license][2].
 
 
   [1]: https://dyaa.me/
